@@ -1,0 +1,53 @@
+#1
+my_list = [1,2,3,4,5,6,7,8,9,10]
+my_list.insert(5,5)
+print(my_list)
+
+[1,2,3,4,5,5,7,8,9,10]
+
+#2
+my_list = [1,2,3,4,5,6,7,8,9,10]
+my_list.remove(4)
+print(my_list)
+my_list
+
+[1,2,3,5,6,7,8,9,10]
+
+#3
+my_list = [1,2,3,4,5,6,7,8,9,10]
+split_index = 5
+frist_part = my_list[:split_index]
+second_part = my_list[split_index:]
+Print(frist_part)
+print(second_part)
+
+[1,2,3,4,5]
+[6,7,8,9,10]
+
+#4
+my_list = [1,2,3,4,5,6,7,8,9,10]
+split_index = 3
+frist_part = my_list[:3]
+second_part = my_list[3:6]
+third_part = my_list[6:]
+print(frist_part)
+print(second_part)
+print(third_part)
+
+[1,2,3]
+[4,5,6]
+[7,8,9,10]
+
+#5
+my_list = [1,2,3,4,5,6,7,8,9,10]
+my_list.reserse()
+print(my_list)
+
+[10,9,8,7,6,5,4,3,2,1]
+
+#6
+my_list = [1,2,3,4,5,6,7,8,9,10]
+sliced_list2 = my_list[0:6:3]
+print(sliced_lista2)
+
+[1,4]
